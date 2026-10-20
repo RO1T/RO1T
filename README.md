@@ -5,7 +5,8 @@
 ### Focus: Go × LLM
 | Project | What it does | Stack |
 |---|---|---|
-| [GoSpread](https://github.com/USERNAME/GoSpreadv3) | Real-time crypto arbitrage monitor. Streams order books from Binance, Bybit and OKX over WebSocket behind a unified exchange interface, computes spot-futures spreads net of fees and funding, serves the top-10 opportunities through a Telegram bot | Go, gRPC, WebSocket, ClickHouse, PostgreSQL, Docker Compose |
+| [Career Proof](https://github.com/RO1T/career-proof) | CLI that checks which skills on a resume are actually backed by evidence. The LLM only extracts facts with verbatim quotes; code verifies every quote, scores each skill against a 7-check rubric and compares the result with real vacancy requirements. Asks targeted questions and builds hh.ru-ready "Experience" and "About" blocks with provenance for every fact, so nothing is invented. One-command install | Go, SQLite, Claude / OpenAI-compatible LLMs, JSON Schema, GoReleaser |
+| [GoSpread](https://github.com/RO1T/GoSpreadv3) | Real-time crypto arbitrage monitor. Streams order books from Binance, Bybit and OKX over WebSocket behind a unified exchange interface, computes spot-futures spreads net of fees and funding, serves the top-10 opportunities through a Telegram bot | Go, gRPC, WebSocket, ClickHouse, PostgreSQL, Docker Compose |
 | [GigaChatWord](https://github.com/Enfariches/VSTO_AddIn) | Microsoft Word add-in with GigaChat in the context menu: expand a selection, condense it to key points, or generate a conclusion for the whole document. Ships as an .exe installer | C#, .NET, VSTO, GigaChat API |
 | [gym-client](https://github.com/RO1T/gym-client) | Desktop client for a workplace-exercise service. Lives in the system tray, pulls the exercise schedule over gRPC, sends reminders, opens video instructions from MinIO, reports completion stats back to the server | Python, PySide6, gRPC, MinIO |
 ---
